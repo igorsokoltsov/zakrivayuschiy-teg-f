@@ -4,3 +4,62 @@
 ✦ theme-light — класс светлой темы
 ✦ не забудьте описать стили для изменения темы через медизапрос пользовательских предпочтений
 */
+
+:root.theme-light {
+	/* типографика */
+	--title-font-weight: 700;
+	--body-font-weight: 400;
+
+	/* цвета */
+	--bg-color: #fff;
+	--bg-gradient-horizontal-start: #d3d3d3;
+	--bg-gradient-horizontal-end: transparent;
+	--bg-gradient-vertical-start: #e7e7e7;
+	--bg-gradient-vertical-end: #1a1a1a;
+	--bg-sparks: #ff0000;
+	--label-color: rgba(0, 0, 0, 0.50);
+	--label-border: rgba(255, 255, 255, 0.50);
+	--content-color: #000;
+	--content-color-hover: rgba(0, 0, 0, 0.60);
+	--mix-blend-mode: #fff;
+}
+
+:root.theme-dark {
+	/* типографика */
+	--title-font-weight: 785;
+	--body-font-weight: 465;
+
+	/* цвета */
+	--bg-color: #000;
+	--bg-gradient-horizontal-start: #000;
+	--bg-gradient-horizontal-end: transparent;
+	--bg-gradient-vertical-start: #007f0c;
+	--bg-gradient-vertical-end: #004306;
+	--bg-sparks: #ff0000;
+	--label-color: rgba(0, 204, 20, 0.50);
+	--label-border: rgba(0, 0, 0, 0.50);
+	--content-color: #00cc14;
+	--content-color-hover: rgba(0, 204, 20, 0.60);
+	--mix-blend-mode: #00cc14;
+}
+
+@media (prefers-color-scheme: dark) {
+	:root {
+		/* типографика */
+		--title-font-weight: 785;
+		--body-font-weight: 465;
+
+		/* цвета */
+		--bg-color: #000;
+		--bg-gradient-horizontal-start: #000;
+		--bg-gradient-horizontal-end: transparent;
+		--bg-gradient-vertical-start: #007f0c;
+		--bg-gradient-vertical-end: #004306;
+		--bg-sparks: #ff0000;
+		--label-color: rgba(0, 204, 20, 0.50);
+		--label-border: rgba(0, 0, 0, 0.50);
+		--content-color: #00cc14;
+		--content-color-hover: rgba(0, 204, 20, 0.60);
+		--mix-blend-mode: #00cc14;
+	}
+}
