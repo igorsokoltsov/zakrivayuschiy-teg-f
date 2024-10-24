@@ -484,7 +484,7 @@ dialog::backdrop {
 }
 
 .content__section-card-image-sepia {
-	filter: sepia(80%);
+	filter: sepia(1) contrast(2) brightness(200%);
 }
 
 @media (width <=375px) {
