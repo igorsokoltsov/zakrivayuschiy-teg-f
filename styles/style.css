@@ -179,10 +179,10 @@
 	opacity: 0.5;
 }
 
-@supports((text-stroke: 1px var(--label-color)) or (-webkit-text-stroke: 1px var(--label-color))) {
+@supports((text-stroke: 1px var(--label-border)) or (-webkit-text-stroke: 1px var(--label-border))) {
 	.content__section-card-label {
-		-webkit-text-stroke: 1px var(--label-color);
-		text-stroke: 1px var(--label-color);
+		-webkit-text-stroke: 1px var(--label-border);
+		text-stroke: 1px var(--label-border);
 	}
 }
 
@@ -450,6 +450,11 @@ dialog::backdrop {
 	.floppy_icon {
 		width: 28px;
 		height: 28px;
+	}
+
+	.floppy_icon-modal {
+		width: 78px;
+		height: 39px;
 	}
 
 	.content__button {
