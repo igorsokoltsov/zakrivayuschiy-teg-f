@@ -227,7 +227,6 @@
 	overflow: hidden;
 	background: transparent;
 	border: 2px solid var(--content-color);
-	min-height: 38px;
 	cursor: pointer;
 }
 
@@ -448,11 +447,7 @@
 }
 
 .dialog__button {
-	display: flex;
-	justify-content: center;
-	align-items: center;
 	height: 38px;
-	padding: 0 350px;
 }
 
 dialog::backdrop {
