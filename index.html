@@ -606,22 +606,23 @@
         <span class="button__text">Сохранить на память</span>
       </button>
     </footer>
+
+    <dialog id="insert-floppy" class="dialog">
+      <div class="dialog__content">
+        <svg class="floppy_icon floppy_icon-modal" viewbox="0 0 39 39">
+          <use href="./svg/floppy.svg#floppy"></use>
+        </svg>
+        <p class="dialog__text">Вставьте дискету, чтобы продолжить</p>
+      </div>
+      <button
+        type="dialog__button button"
+        class="button"
+        onclick="window['insert-floppy'].close()"
+      >
+        <span class="button__text">Ок</span>
+      </button>
+    </dialog>
+
     <script src="./scripts/like.js"></script>
   </body>
 </html>
-
-<dialog id="insert-floppy" class="dialog">
-  <div class="dialog__content">
-    <svg class="floppy_icon floppy_icon-modal" viewbox="0 0 39 39">
-      <use href="./svg/floppy.svg#floppy"></use>
-    </svg>
-    <p class="dialog__text">Вставьте дискету, чтобы продолжить</p>
-  </div>
-  <button
-    type="dialog__button button"
-    class="button"
-    onclick="window['insert-floppy'].close()"
-  >
-    <span class="button__text">Ок</span>
-  </button>
-</dialog>
