@@ -17,8 +17,8 @@
 	--bg-gradient-vertical-start: #e7e7e7;
 	--bg-gradient-vertical-end: #1a1a1a;
 	--bg-sparks: #ff0000;
-	--label-color: rgba(0, 0, 0, 0.50);
-	--label-border: rgba(255, 255, 255, 0.50);
+	--label-color: #000;
+	--label-border: #fff;
 	--content-color: #000;
 	--content-color-hover: rgba(0, 0, 0, 0.60);
 	--mix-blend-mode: #fff;
@@ -36,8 +36,8 @@
 	--bg-gradient-vertical-start: #007f0c;
 	--bg-gradient-vertical-end: #004306;
 	--bg-sparks: #ff0000;
-	--label-color: rgba(0, 204, 20, 0.50);
-	--label-border: rgba(0, 0, 0, 0.50);
+	--label-color: #00cc14;
+	--label-border: #000;
 	--content-color: #00cc14;
 	--content-color-hover: rgba(0, 204, 20, 0.60);
 	--mix-blend-mode: #00cc14;
@@ -56,8 +56,8 @@
 		--bg-gradient-vertical-start: #007f0c;
 		--bg-gradient-vertical-end: #004306;
 		--bg-sparks: #ff0000;
-		--label-color: rgba(0, 204, 20, 0.50);
-		--label-border: rgba(0, 0, 0, 0.50);
+		--label-color: #00cc14;
+		--label-border: #000;
 		--content-color: #00cc14;
 		--content-color-hover: rgba(0, 204, 20, 0.60);
 		--mix-blend-mode: #00cc14;

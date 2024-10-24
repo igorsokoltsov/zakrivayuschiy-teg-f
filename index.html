@@ -47,7 +47,7 @@
       </nav>
     </header>
     <main class="content">
-      <section class="content__section">
+      <article class="content__section">
         <ul class="content__section-list">
           <li class="content__section-card">
             <div class="content__section-card-title-wrapper">
@@ -591,21 +591,21 @@
             </div>
           </li>
         </ul>
-      </section>
+      </article>
+      <div class="content__button">
+        <button
+          type="button"
+          class="button content__section__button"
+          onclick="window['insert-floppy'].showModal()"
+          aria-controls="insert-floppy"
+        >
+          <svg class="floppy_icon" viewbox="0 0 39 39">
+            <use href="./svg/floppy.svg#floppy"></use>
+          </svg>
+          <span class="button__text">Сохранить на память</span>
+        </button>
+      </div>
     </main>
-    <footer class="footer">
-      <button
-        type="button"
-        class="button content__section__button"
-        onclick="window['insert-floppy'].showModal()"
-        aria-controls="insert-floppy"
-      >
-        <svg class="floppy_icon" viewbox="0 0 39 39">
-          <use href="./svg/floppy.svg#floppy"></use>
-        </svg>
-        <span class="button__text">Сохранить на память</span>
-      </button>
-    </footer>
 
     <dialog id="insert-floppy" class="dialog">
       <div class="dialog__content">

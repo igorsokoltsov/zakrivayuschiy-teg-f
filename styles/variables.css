@@ -16,8 +16,8 @@
 	--bg-gradient-vertical-end: #1a1a1a;
 	--bg-heart-active: #ff0000;
 	--bg-heart-fill: #fff;
-	--label-color: rgba(0, 0, 0, 0.50);
-	--label-border: rgba(255, 255, 255, 0.50);
+	--label-color: #000;
+	--label-border: #fff;
 	--content-color: #000;
 	--content-color-hover: rgba(0, 0, 0, 0.60);
 	--mix-blend-mode: #fff;
